@@ -1,1 +1,26 @@
+# Ignore SSH private keys
 .ssh/id_rsa
+.ssh/id_rsa.pub
+
+# Ignore system files
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Node.js dependencies (if applicable)
+node_modules/
+
+# Ignore environment variables and config
+.env
+.env.local
+.ssh/id_rsa
+
